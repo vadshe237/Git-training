@@ -1,0 +1,1 @@
+$(document).ready((function(){$(".feedback__slider").slick({dots:!0,autoplay:!0,autoplaySpees:5e3})}));
