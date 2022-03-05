@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'icons';
+    src: url('../fonts/icons.eot?pdkh66');
+    src: url('../fonts/icons.eot?pdkh66#iefix') format('embedded-opentype'), url('../fonts/icons.ttf?pdkh66') format('truetype'), url('../fonts/icons.woff?pdkh66') format('woff'), url('../fonts/icons.svg?pdkh66#icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="_icon-"]::after,
+[class*=" _icon-"]::after {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icons' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+._icon-keyboard_arrow_down:after {
+    content: "\e900";
+}
+
+._icon-keyboard_arrow_up:after {
+    content: "\e901";
+}
+
+._icon-Ellipse:after {
+    content: "\e903";
+}
+
+._icon-inst:after {
+    content: "\e904";
+}
+
+._icon-Vector-Stroke:after {
+    display: flex;
+    align-self: center;
+    padding: 0 0 0 14px;
+    content: "\e905";
+}
+
+._icon-twit:after {
+    content: "\e906";
+}
+
+._icon-facebook:after {
+    content: "\e907";
+}
